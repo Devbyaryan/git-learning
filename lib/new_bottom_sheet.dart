@@ -5,6 +5,11 @@ class NewBottomSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('Hello');
+    return Column(
+      children: [
+        Text('Hello , my name is aryan '),
+        Text("i love you aryan")
+      ],
+    );
   }
 }
